@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="masive">
+        <H1>Sistema de simulacion de puerto nuevo</H1>
+        <br>
+        <div class="main">
+            <div class="uno">
+                <div class="fila">
+                    <span class="loading">Cargando...</span>
+                </div>
+                <div class="gruas">
+                    <span class="loading">Cargando...</span>
+                </div>
+                <div class="barcos">
+                    <span class="loading">Cargando...</span>
+                </div>
+                <div class="puerto">
+                    <span class="loading">Cargando...</span>
+                </div>
+            </div>
+
+            <div class="dos">
+                <div class="media">
+                    <span class="loading">Media barcos...</span>
+                </div>
+                <div class="mediaPuerto">
+                    <span class="loading">Media Puerto ...</span>
+                </div>
+                <div class="varianza">
+                    <span class="loading">Varianza barcos...</span>
+                </div>
+                <div class="varianzaPuerto">
+                    <span class="loading">Varianza puerto...</span>
+                </div>
+                <div class="desviacion">
+                    <span class="loading">Desviacion estandar (barco)...</span>
+                </div>
+                <div class="desviacionPuerto">
+                    <span class="loading">Desviacion estandar (puerto)...</span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <button class="boton" id="day">
+                Day
+            </button>
+            <button class="boton" id="week">
+                Week
+            </button>
+            <button class="boton" id="month">
+                Month
+            </button>
+        </div>
+
+
+        <div class="clearfix"></div>
+        <br><br>
+        <canvas class="graficas"></canvas>
+    </div>
+
+    <button class="boton" id="reload"><a href="proyetpView.html">Refrescar</a></button>
+    <script type="text/javascript" src="proyecto.js"></script>
+</body>
+
+</html>
